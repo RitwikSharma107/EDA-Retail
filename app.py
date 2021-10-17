@@ -82,16 +82,16 @@ def main():
 
                                 `Profit`: Profit/loss made on the sale''')
 
-                    # Information about dataset
-                    st.write('')
-                    st.write('#### Dataset Information')
-                    st.write(df.describe(include='all'))
+                    # # Information about dataset
+                    # st.write('')
+                    # st.write('#### Dataset Information')
+                    # st.write(df.describe(include='all'))
 
-                    # Chech for missing values
-                    st.write('')
-                    st.write('#### Missing Values')
-                    st.write(df.isna().sum())
-                    st.write('There are no missing values')
+                    # # Chech for missing values
+                    # st.write('')
+                    # st.write('#### Missing Values')
+                    # st.write(df.isna().sum())
+                    # st.write('There are no missing values')
         
         if choice == 'Numerical Variables':
             st.title('Numerical Variables')
