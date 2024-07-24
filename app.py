@@ -27,7 +27,7 @@ def main():
         """
     st.markdown(html1,unsafe_allow_html=True)
     st.write('')
-    st.sidebar.title('Exploratory Data Analysis - Retail')
+    st.sidebar.title('Exploratory Data Analysis')
 
     # Read data
     df = pd.read_csv('SampleSuperstore.csv')
