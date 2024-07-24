@@ -36,7 +36,7 @@ def main():
     if nav == 'Home':
         choice = st.sidebar.radio('Choose any parameter',['Retail Data','Numerical Variables','Categorical Variables','Data insights','Conclusion'])
         if choice == 'Retail Data':
-                    st.title('Exploratory Data Analysis - Retail')
+                    st.title('Task 3: Exploratory Data Analysis - Retail')
                     st.write('### Perform ‘Exploratory Data Analysis’ on dataset ‘SampleSuperstore’:')
                     st.write('As a business manager, try to ﬁnd out the weak areas where you can work to make more proﬁt.')
                     st.write('What all business problems you can derive by exploring the data?')
