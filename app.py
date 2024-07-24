@@ -27,11 +27,9 @@ def main():
         """
     st.markdown(html1,unsafe_allow_html=True)
     st.write('')
-<<<<<<< HEAD
-    st.sidebar.title('Exploratory Data Analysis')
-=======
-    st.sidebar.title('EDA - Retail')
->>>>>>> refs/remotes/origin/main
+
+    st.sidebar.title('Exploratory Data Analysis - Retail')
+
 
     # Read data
     df = pd.read_csv('SampleSuperstore.csv')
